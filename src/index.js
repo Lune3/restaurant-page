@@ -9,6 +9,5 @@ const aboutButton = document.querySelector(".aboutButton");
 
 homeButton.addEventListener("click",() => {
     const home = createHome();
-    content.appendChild(home[0]);
-    content.appendChild(home[1]);
+    content.append(home);
 })

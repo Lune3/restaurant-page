@@ -1,3 +1,29 @@
-button{
-    background-color: red;
+body{
+    margin: 0;
+}
+
+header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    height: 100px;
+    display: flex;
+}
+
+p{
+    margin: 0;
+    align-self: center;
+}
+
+nav{
+    position: absolute;
+    left: 45%;
+    align-self: center;
+}
+
+
+img{
+    width: max(25%,200px);
+    height: auto;
 }

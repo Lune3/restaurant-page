@@ -1,6 +1,7 @@
 import image from './Images/andy-hay-ZN-TT10kf4o-unsplash.jpg';
 
 function createHome(){
+    const menuDiv = document.createElement("div");
     const restaurantDescription = document.createElement("div");
     restaurantDescription.innerHTML = `
     <h1 class="name">Restaurant Name</h1>
@@ -10,8 +11,10 @@ function createHome(){
 
     const restaurantImg = document.createElement("img");
     restaurantImg.src = image;
+
+    menuDiv.append(restaurantDescription,restaurantImg);
     
-    return [restaurantDescription,restaurantImg];
+    return menuDiv;
 }
 
 export {createHome};
