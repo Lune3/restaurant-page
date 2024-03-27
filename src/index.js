@@ -9,5 +9,6 @@ const aboutButton = document.querySelector(".aboutButton");
 
 homeButton.addEventListener("click",() => {
     const home = createHome();
+    home.className = "homeTab";
     content.append(home);
 })
