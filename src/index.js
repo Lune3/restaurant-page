@@ -39,7 +39,7 @@ menuButton.addEventListener("click" , () =>{
 contactButton.addEventListener("click",() => {
     if(flag != 3){
         content.textContent = "";
-        // contact.className = "contactTab";
+        contact.className = "contactTab";
         content.append(contact);
         flag = 3;
 

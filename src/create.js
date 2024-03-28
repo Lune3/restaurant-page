@@ -1,4 +1,4 @@
-function createP(text,className = ""){
+function createP(text = "",className = ""){
     const p = document.createElement("p");
     p.textContent = `${text}`;
     if(className !== "")
@@ -6,7 +6,7 @@ function createP(text,className = ""){
     return p;
 }
 
-function createh1(text,className = ""){
+function createh1(text = "",className = ""){
     const p = document.createElement("h1");
     p.textContent = `${text}`;
     if(className !== "")
@@ -14,7 +14,7 @@ function createh1(text,className = ""){
     return p;
 }
 
-function createH2(text,className = ""){
+function createH2(text = "",className = ""){
     const p = document.createElement("h2");
     p.textContent = `${text}`;
     if(className !== "")
