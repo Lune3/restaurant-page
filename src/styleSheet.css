@@ -5,7 +5,6 @@ body{
 }
 
 header{
-    position: relative;
     margin: 0;
     padding: 0;
     background-color: orange;
@@ -19,26 +18,31 @@ p{
 }
 
 nav{
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     left: 45%;
     align-self: center;
 }
 
-
 .homeTab{
+    padding: 50px 0px 0px 75px;
+    
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: center;
+    gap: 45px;
 }
 
-.homeTab div:first-child{
+.homeTab div:nth-child(1){
+    width: max(40%,200px);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
-img{
-    width: max(30%,200px);
-    height: auto;
-    align-self: center;
+.homeTab div:nth-child(2){
+    flex: 1;
+}
+
+.homeTab div:nth-child(2) img{
+    max-width: 100%;
+    max-height: 100%;
 }
