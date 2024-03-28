@@ -4,10 +4,14 @@ function createHome(){
     const homeDiv = document.createElement("div");
     const restaurantDescription = document.createElement("div");
     restaurantDescription.innerHTML = `
+    <div>
     <h1 class="name">Restaurant Name</h1>
-    <h1>Savor the authentic tastes of India, crafted with love and served with a side of warmth and hospitality.</h1>
+    <p>Savor the authentic tastes of India, crafted with love and served with a side of warmth and hospitality.</p>
+    </div>
+    <div>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eligendi labore quod quam laboriosam vero cupiditate .</p>
-    <button>Reservation</button>`;
+    <button class="reservation">Reservation</button>
+    </div>`;
 
 
 

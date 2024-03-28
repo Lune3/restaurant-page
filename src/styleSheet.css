@@ -1,48 +1,101 @@
+:root{
+    --primary-color:rgb(217, 237, 191);
+    --secondary-color:rgb(255, 152, 0);
+    --tertiary-color:rgb(44, 120, 101);
+    --forth-color:rgb(144, 210, 109);
+}
+
 body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
+    background-color: var(--primary-color);
 }
 
 header{
     margin: 0;
     padding: 0;
-    background-color: orange;
+    background-color: var(--secondary-color);
     height: 100px;
     display: flex;
+    align-items: center;
 }
 
 p{
     margin: 0;
-    align-self: center;
+}
+
+.companyName{
+    font-size: 2rem;
+    margin-left: 20px;
 }
 
 nav{
-    margin-left: auto;
-    margin-right: auto;
-    left: 45%;
-    align-self: center;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    gap: 50px;
 }
+
+nav button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: var(--tertiary-color);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 15px;
+    border: 2px white solid;
+}
+
+/* nav button:hover{
+    box-shadow: rgb(212, 195, 39) 5px 5px 25px;
+} */
 
 .homeTab{
     padding: 50px 0px 0px 75px;
-    
     display: flex;
     justify-content: center;
     gap: 45px;
 }
 
-.homeTab div:nth-child(1){
+.homeTab > div:nth-child(1){
     width: max(40%,200px);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.homeTab div:nth-child(2){
+.homeTab > div:nth-child(2){
     flex: 1;
 }
 
-.homeTab div:nth-child(2) img{
+.homeTab > div:nth-child(2) img{
     max-width: 100%;
     max-height: 100%;
+}
+
+.homeTab > div:nth-child(1) > div:nth-child(1) h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.homeTab > div:nth-child(1) > div:nth-child(1) p{
+    font-size: 3.5rem;
+}
+
+.homeTab > div:nth-child(1) > div:nth-child(2) p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.reservation{
+    width: max(20%,50px);
+    height: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: var(--tertiary-color);
+    color: white;
+    border-radius: 10px;
 }
