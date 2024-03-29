@@ -196,6 +196,7 @@ nav button{
     margin-top: 15px;
     margin-bottom:  10px;
     padding-bottom: 10px;
+    gap: 15px;
 }
 
 .contactTab img{
