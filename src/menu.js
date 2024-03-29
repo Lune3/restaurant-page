@@ -2,11 +2,17 @@
 import {createP, createh1,createimg,createH2} from './create.js'
 
 function createLi(ul,name,text,src){
+    const container = document.createElement("div");
+    container.className = "dish";
     const li = document.createElement("li");
     const p = createP(text);
     const h2 = createH2(name);
+    container.append(h2,p);
+    const div = document.createElement('div');
+    div.className = "dishImg";
     const img = createimg(src);
-    li.append(p,h2,img);
+    div.append(img);
+    li.append(container,div);
     ul.append(li);
 }
 

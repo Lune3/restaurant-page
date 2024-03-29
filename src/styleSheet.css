@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --primary-color:rgb(217, 237, 191);
-    --secondary-color:rgb(255, 152, 0);
-    --tertiary-color:rgb(44, 120, 101);
-    --forth-color:rgb(144, 210, 109);
+    --primary-color:rgb(253, 164, 3);
+    --secondary-color:rgb(232, 117, 26);
+    --tertiary-color:rgb(137, 129, 33);
+    --forth-color:rgb(229, 194, 135);
+    font-family: "Noto Sans", sans-serif;
 }
 
 body{
@@ -27,8 +29,9 @@ p{
 }
 
 .companyName{
-    font-size: 2rem;
-    margin-left: 20px;
+    font-size: 2.5rem;
+    margin-left: 75px;
+    font-weight: 600;
 }
 
 nav{
@@ -99,3 +102,29 @@ nav button{
     color: white;
     border-radius: 10px;
 }
+
+.menuTab > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuTab > ul > li{
+    width: 45%;
+}
+
+.dishImg{
+    width: 40%;
+    height: 200px;
+}
+
+.menuTab img{
+    width: max(100%,250px);
+    height: max(100%,200px);
+}
+
+
