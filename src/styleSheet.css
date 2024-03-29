@@ -52,10 +52,6 @@ nav button{
     border: 2px white solid;
 }
 
-/* nav button:hover{
-    box-shadow: rgb(212, 195, 39) 5px 5px 25px;
-} */
-
 .homeTab{
     padding: 50px 0px 0px 75px;
     display: flex;
@@ -104,27 +100,47 @@ nav button{
 }
 
 .menuTab > ul{
-    list-style: none;
+    /* list-style: none; */
     margin: 0;
     padding: 0;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .menuTab > ul > li{
     width: 45%;
+    display: flex;
+    gap: 25px;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.menuTab > ul > li h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.menuTab > ul > li p{
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 .dishImg{
-    width: 40%;
-    height: 200px;
+    align-self: flex-end;
 }
 
-.menuTab img{
-    width: max(100%,250px);
-    height: max(100%,200px);
+.dishImg > img{
+    width: 200px;
+    height: 175px;
 }
+
+
+
+
 
 

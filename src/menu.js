@@ -24,7 +24,7 @@ function createMenu(){
     createLi(ul,"Panner butter masala",`Perhaps one of the premium north Indian or Punjabi curries if not the king of the paneer curries. 
     It is known for its mildly sweet and spicy taste with the goodness of fresh cream and butter topping with moist paneer.`,`https://www.ruchiskitchen.com/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3-500x375.jpg`);
     createLi(ul,`Butter roti`,`Tandoori roti are unleavened whole wheat flat breads. Traditionally these are made in a tandoor, which is a pot-shaped clay oven and not on a skillet or flat pan.`,`https://spicesnflavors.com/wp-content/uploads/2020/06/tandoori-roti-2-1-300x300.jpg`);
-    createLi(ul,`vegetable raita`,`Vegetable Raita is one of the most common accompaniments that is often served with Indian meals. It is primarily a thick and creamy curd-based sauce which complements our meals in flavor, texture and also adds more nutrition to it.`,`https://1.bp.blogspot.com/-hkoOpfsbQbA/XaW6J0SisdI/AAAAAAAABrw/vOwpuV8z0hs3aozEZOBaFmBDs0DsZLePwCLcBGAsYHQ/s1600/Mix%2BVeg%2BRaita%2BRecipe.jpg`);
+    createLi(ul,`Vegetable raita`,`Vegetable Raita is one of the most common accompaniments that is often served with Indian meals. It is primarily a thick and creamy curd-based sauce which complements our meals in flavor, texture and also adds more nutrition to it.`,`https://1.bp.blogspot.com/-hkoOpfsbQbA/XaW6J0SisdI/AAAAAAAABrw/vOwpuV8z0hs3aozEZOBaFmBDs0DsZLePwCLcBGAsYHQ/s1600/Mix%2BVeg%2BRaita%2BRecipe.jpg`);
     return menuDiv;
 }
 
