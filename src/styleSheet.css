@@ -49,7 +49,7 @@ nav button{
     font-size: 1.2rem;
     color: white;
     border-radius: 15px;
-    border: 2px white solid;
+    /* border: 2px white solid; */
 }
 
 .homeTab{
@@ -99,6 +99,8 @@ nav button{
     border-radius: 10px;
 }
 
+/*css for menu tab*/
+
 .menuTab > ul{
     /* list-style: none; */
     margin: 0;
@@ -140,6 +142,64 @@ nav button{
 }
 
 
+/*css for contact */
+
+.contactTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.contactTab ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border: 2px black solid;
+    border-radius: 10px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.contactTab ul li:not(.contactImgs){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactTab h2,p{
+    margin: 0;
+}
+
+.contactTab h2{
+    font-size: 2rem;
+}
+
+.contactTab p{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contactImgs{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom:  10px;
+    padding-bottom: 10px;
+}
+
+.contactTab img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
 
 
 

@@ -20,10 +20,11 @@ function createContact(){
     const contactDiv = document.createElement("div");
     const ul = document.createElement("ul");
     createLi(ul,'Phone Number','+91-9847257314');
-    createLi(ul,'E-mail','xyz@gmail.com');
+    createLi(ul,'E-mail','pajeetSwadishKhana@gmail.com');
     createLi(ul,'Google map','https://maps.app.goo.gl/yVAkMvW1YLRbyJxCA');
     const li = document.createElement("li");
-    const srcArr = ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346","https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Linkedln-icon-voltrans.png/640px-Linkedln-icon-voltrans.png","https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Google_Maps_icon_%282020%29.svg/640px-Google_Maps_icon_%282020%29.svg.png","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Web-icon-voltrans.png/640px-Web-icon-voltrans.png"];
+    li.className = "contactImgs"
+    const srcArr = ["https://www.svgrepo.com/show/452229/instagram-1.svg","https://www.svgrepo.com/show/303113/facebook-icon-logo.svg","https://www.svgrepo.com/show/448234/linkedin.svg","https://www.svgrepo.com/show/349391/google-maps-old.svg","https://www.svgrepo.com/show/475689/twitter-color.svg"];
     insertImg(li,srcArr);
     ul.append(li);
     contactDiv.append(ul);
